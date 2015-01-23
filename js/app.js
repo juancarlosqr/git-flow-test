@@ -1,3 +1,5 @@
+//version 0.2.1
+
 App = Ember.Application.create();
 
 App.Router.map(function() {
