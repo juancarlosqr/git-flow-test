@@ -1,3 +1,5 @@
+//version 0.2.1
+
 App = Ember.Application.create();
 
 App.Router.map(function() {
@@ -6,6 +8,6 @@ App.Router.map(function() {
 
 App.IndexRoute = Ember.Route.extend({
   model: function() {
-    return ['red', 'yellow', 'blue', 'green', 'white'];
+    return ['red', 'yellow', 'blue', 'green', 'black'];
   }
 });
